@@ -40,52 +40,52 @@ Among all evaluated models, Random Forest demonstrated the most balanced and con
 
 The project follows a standard data science directory structure commonly used in production and enterprise environments.
 
-INX_Employee_Performance_Analysis/
-│
-├── Project Summary/
-│   ├── Requirement/
-│   │   └── business_problem.md
-│   │
-│   ├── Analysis/
-│   │   └── analysis_summary.md
-│   │
-│   └── Summary/
-│       └── final_recommendations.md
-│
-├── data/
-│   ├── raw/
-│   │   └── INX_Future_Inc_Employee_Performance_CDS_Project2_Data_V1.8.xls
-│   │
-│   ├── processed/
-│   │   ├── X.csv
-│   │   ├── y.csv
-│   │   ├── X_train.csv
-│   │   ├── X_test.csv
-│   │   ├── y_train.csv
-│   │   ├── y_test.csv
-│   │   └── feature_names.txt
-│   │
-│   └── external/
-│
-├── src/
-│   ├── Data Processing/
-│   │   ├── data_processing.ipynb
-│   │   └── data_exploratory_analysis.ipynb
-│   │
-│   ├── models/
-│   │   ├── train_model.ipynb
-│   │   └── predict_model.ipynb
-│   │
-│   └── visualization/
-│       └── visualize.ipynb
-│
-├── models/
-│   ├── scaler.pkl
-│   └── random_forest_model.pkl
-│
-├── prediction.py
-│
-└── README.md
+INX_Employee_Performance_Analysis/ <br>
+│ <br>
+├── Project Summary/ <br>
+│   ├── Requirement/ <br>
+│   │   └── business_problem.md <br>
+│   │ <br>
+│   ├── Analysis/ <br>
+│   │   └── analysis_summary.md <br>
+│   │ <br>
+│   └── Summary/ <br>
+│       └── final_recommendations.md <br>
+│ <br>
+├── data/ <br>
+│   ├── raw/ <br>
+│   │   └── INX_Future_Inc_Employee_Performance_CDS_Project2_Data_V1.8.xls <br>
+│   │ <br>
+│   ├── processed/ <br>
+│   │   ├── X.csv <br>
+│   │   ├── y.csv <br>
+│   │   ├── X_train.csv <br>
+│   │   ├── X_test.csv <br>
+│   │   ├── y_train.csv <br>
+│   │   ├── y_test.csv <br>
+│   │   └── feature_names.txt <br>
+│   │ <br>
+│   └── external/ <br>
+│ <br>
+├── src/ <br>
+│   ├── Data Processing/ <br>
+│   │   ├── data_processing.ipynb <br>
+│   │   └── data_exploratory_analysis.ipynb <br>
+│   │ <br>
+│   ├── models/ <br>
+│   │   ├── train_model.ipynb <br>
+│   │   └── predict_model.ipynb <br>
+│   │ <br>
+│   └── visualization/ <br>
+│       └── visualize.ipynb <br>
+│ <br>
+├── models/ <br>
+│   ├── scaler.pkl <br>
+│   └── random_forest_model.pkl <br>
+│ <br>
+├── prediction.py <br>
+│ <br>
+└── README.md <br>
 
 ----
 ## Explanation of Folder Design
